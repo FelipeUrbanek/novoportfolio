@@ -1,4 +1,5 @@
 import useSVGInject from "../../hooks/useSVGInject";
+import logo from "../../assets/img/navbar/logo.svg";
 
 const Header = () => {
   useSVGInject();
@@ -29,11 +30,7 @@ const Header = () => {
             </ul>
           </div>
           <a className="navbar-brand" href="/">
-            <img
-              src="/assets/img/navbar/logo.svg"
-              className="svg-inject"
-              alt=""
-            />
+            <img src={logo} className="svg-inject" alt="" />
           </a>
           <button
             type="button"
