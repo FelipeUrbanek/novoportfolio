@@ -179,7 +179,7 @@ a.btn-white:hover {
     margin-top: 20px;
   }
 }
-@media screen and (max-width: 1200px) and (min-width: 1000px) {
+@media screen and (max-width: 1320px) and (min-width: 1000px) {
   .div-lista-nav-01 {
     order: 1;
   }
@@ -196,7 +196,7 @@ a.btn-white:hover {
     margin-bottom: 20px;
   }
 }
-@media screen and (max-width: 1200px) and (min-width: 1000px) {
+@media screen and (max-width: 1320px) and (min-width: 1000px) {
   .div-lista-nav-02 {
     order: 2;
   }

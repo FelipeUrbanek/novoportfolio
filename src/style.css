@@ -180,7 +180,7 @@ a.btn-white:hover {
     margin-top: 20px;
   }
 }
-@media screen and (max-width: 1200px) and (min-width: 1000px) {
+@media screen and (max-width: 1320px) and (min-width: 1000px) {
   .div-lista-nav-01 {
     order: 1;
   }
@@ -197,7 +197,7 @@ a.btn-white:hover {
     margin-bottom: 20px;
   }
 }
-@media screen and (max-width: 1200px) and (min-width: 1000px) {
+@media screen and (max-width: 1320px) and (min-width: 1000px) {
   .div-lista-nav-02 {
     order: 2;
   }
@@ -333,7 +333,7 @@ a.btn-white:hover {
 }
 @media screen and (max-width: 768px) {
   #hero {
-    padding: 200px 0px;
+    padding: 200px 0px 100px 0px;
   }
 }
 
@@ -343,15 +343,21 @@ a.btn-white:hover {
   left: 0;
   width: 100% !important;
   height: 100%;
-  z-index: -1;
+  z-index: -2;
 }
 @media screen and (max-width: 768px) {
   #hero #background-hero {
     width: 200% !important;
   }
 }
-#hero #esquerda--inject-2 {
-  animation: bounce 2s infinite;
+#hero #gradient-hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
 #hero h6 {
@@ -382,7 +388,7 @@ a.btn-white:hover {
     font-size: 3rem;
   }
 }
-@media screen and (max-width: 1200px) and (min-width: 1000px) {
+@media screen and (max-width: 1320px) and (min-width: 1000px) {
   #hero h1 {
     font-size: 3rem;
   }
@@ -397,10 +403,16 @@ a.btn-white:hover {
   letter-spacing: -0.01125rem;
   display: flex !important;
   flex-direction: column !important;
+  margin-bottom: 40px;
 }
 @media screen and (max-width: 768px) {
   #hero span {
     font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #hero span {
+    margin-bottom: 20px;
   }
 }
 #hero a.btn-white {
@@ -437,7 +449,7 @@ a.btn-white:hover {
     font-size: 1.5rem;
   }
 }
-@media screen and (max-width: 1200px) and (min-width: 1000px) {
+@media screen and (max-width: 1320px) and (min-width: 1000px) {
   #hero h3 {
     font-size: 1.5rem;
   }
