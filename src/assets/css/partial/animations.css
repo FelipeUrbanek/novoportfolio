@@ -1,16 +1,16 @@
-#esquerda-group--inject-1 {
+#esquerda-group--inject-2 {
   animation: moveUpDown 4s infinite alternate ease-in-out;
 }
 
-#baixo-group--inject-1 {
+#baixo-group--inject-2 {
   animation: moveUpDown 3s infinite alternate ease-in-out 1s;
 }
 
-#direita-group--inject-1 {
+#direita-group--inject-2 {
   animation: moveUpDown 2s infinite alternate ease-in-out 2s;
 }
 
-#cima-group--inject-1 {
+#cima-group--inject-2 {
   animation: moveUpDown 5s infinite alternate ease-in-out 3s;
 }
 
