@@ -30,7 +30,7 @@ const Header = () => {
           </div>
           <a className="navbar-brand" href="/">
             <img
-              src="/src/assets/img/navbar/logo.svg"
+              src="/assets/img/navbar/logo.svg"
               className="svg-inject"
               alt=""
             />
