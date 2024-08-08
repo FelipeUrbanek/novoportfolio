@@ -3,6 +3,7 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import useSVGInject from "../../hooks/useSVGInject";
 
 import background from "../../assets/img/hero/background-hero.svg";
+import gradient from "../../assets/img/elementos/gradient.svg";
 const Hero = () => {
   useSVGInject();
   /* Retorno da função */
@@ -47,6 +48,8 @@ const Hero = () => {
         id="background-hero"
         alt=""
       />
+
+      <img src={gradient} className="svg-inject" id="gradient-hero" alt="" />
     </section>
   );
 };

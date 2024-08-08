@@ -111,15 +111,21 @@
   left: 0;
   width: 100% !important;
   height: 100%;
-  z-index: -1;
+  z-index: -2;
 }
 @media screen and (max-width: 768px) {
   #hero #background-hero {
     width: 200% !important;
   }
 }
-#hero #esquerda--inject-2 {
-  animation: bounce 2s infinite;
+#hero #gradient-hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
 #hero h6 {
