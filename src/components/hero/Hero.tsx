@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import useSVGInject from "../../hooks/useSVGInject";
 
-import background from "../../assets/img/hero/background-hero.svg";
+/* import background from "../../assets/img/hero/background-hero.svg"; */
 const Hero = () => {
   useSVGInject();
   /* Retorno da função */
@@ -42,11 +42,12 @@ const Hero = () => {
       </div>
 
       <img
-        src={background}
+        src="/src/assets/img/hero/background-hero.svg"
         className="svg-inject"
         id="background-hero"
-        alt="teste01"
+        alt=""
       />
+      <h1>teste</h1>
     </section>
   );
 };
