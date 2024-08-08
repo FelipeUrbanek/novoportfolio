@@ -1,0 +1,96 @@
+@import "../../assets/css/partial/colors";
+@import "../../assets/css/partial/typography";
+@import "../../assets/css/partial/layout";
+
+.navbar {
+    border-radius: 1rem;
+    background: rgba(10, 10, 10, 0.2);
+    box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 26px;
+
+    @include responsive(s) {
+        margin-top: 8px !important;
+    }
+}
+
+.nav-link {
+    @include itemmenu;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    @include responsive(s) {
+        padding: 8px 0px !important;
+    }
+}
+
+a.btn-white {
+    @include btn-white;
+    text-decoration: none !important;
+
+    @include responsive(s) {
+        display: inline-flex;
+    }
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px 56px !important;
+}
+
+.div-lista-nav-01 {
+    @include responsive(s) {
+        order: 1;
+        margin-top: 20px;
+    }
+
+    @include responsive(l) {
+        order: 1;
+    }
+
+    @include responsive(m) {
+        order: 1;
+    }
+}
+.div-lista-nav-02 {
+    @include responsive(s) {
+        order: 2;
+        margin-bottom: 20px;
+    }
+
+    @include responsive(l) {
+        order: 2;
+    }
+
+    @include responsive(m) {
+        order: 2;
+    }
+}
+
+.nav-link {
+    color: $green-felipe-50 !important;
+    position: relative;
+    /*  @include text-style-heads-heading-1; */
+
+    &::after {
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 1px;
+        background-color: $green-felipe-50;
+        bottom: -10%;
+        left: 0;
+        transition: all 0.7s ease-in-out;
+    }
+
+    &:hover {
+        color: $green-felipe-50 !important;
+        &::after {
+            width: 100%;
+        }
+    }
+}

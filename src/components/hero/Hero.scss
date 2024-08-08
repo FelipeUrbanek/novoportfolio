@@ -1,0 +1,64 @@
+@import "../../assets/css/partial/colors";
+@import "../../assets/css/partial/typography";
+@import "../../assets/css/partial/layout";
+
+#hero {
+    padding: 360px 0px;
+    position: relative;
+
+    @include responsive(s) {
+        padding: 200px 0px 100px 0px;
+    }
+}
+
+#hero {
+    #background-hero {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100%;
+        z-index: -1;
+
+        @include responsive(s) {
+            width: 200% !important;
+        }
+    }
+
+    #esquerda--inject-2 {
+        animation: bounce 2s infinite;
+    }
+}
+
+#hero {
+    h6 {
+        @include microtext;
+        margin-bottom: 8px;
+    }
+
+    h1 {
+        @include titulo-primario;
+    }
+
+    span {
+        @include span;
+        margin-bottom: 40px;
+
+        @include responsive(s) {
+            margin-bottom: 20px;
+        }
+    }
+
+    a.btn-white {
+        @include btn-white;
+    }
+
+    h3 {
+        @include subtitulo-primario;
+        font-size: 3rem;
+    }
+
+    h4 {
+        @include titulo-h4;
+    }
+}
