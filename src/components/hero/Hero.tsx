@@ -45,7 +45,7 @@ const Hero = () => {
         src={background}
         className="svg-inject"
         id="background-hero"
-        alt=""
+        alt="teste01"
       />
     </section>
   );
