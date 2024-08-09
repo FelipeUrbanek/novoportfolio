@@ -3,7 +3,7 @@
 @import "../../assets/css/partial/layout";
 
 #hero {
-    padding: 360px 0px;
+    padding: 360px 0px 320px 0px;
     position: relative;
 
     @include responsive(s) {
