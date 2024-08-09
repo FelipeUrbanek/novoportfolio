@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { gsap } from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
+import backgroundimagem from "../../assets/img/informativo/background.png";
 
 const Informativo = () => {
   useEffect(() => {
@@ -33,7 +34,15 @@ const Informativo = () => {
   }, []);
 
   return (
-    <section id="informativo">
+    <section
+      id="informativo"
+      style={{
+        backgroundImage: `url(${backgroundimagem})`,
+        backgroundSize: "cover", // Ajusta o tamanho da imagem para cobrir toda a seção
+        backgroundPosition: "center", // Centraliza a imagem
+        backgroundRepeat: "no-repeat", // Impede a repetição da imagem
+      }}
+    >
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
