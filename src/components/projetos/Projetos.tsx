@@ -13,8 +13,8 @@ const Projetos = () => {
     margin: 10,
     nav: false,
     dots: false,
-    autoplay: false,
-    autoplayTimeout: 2000,
+    autoplay: true,
+    autoplayTimeout: 8000,
     pauseOnHover: true,
     responsive: {
       0: {
