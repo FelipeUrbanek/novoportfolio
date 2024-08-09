@@ -1,0 +1,64 @@
+@import "../../assets/css/partial/colors";
+@import "../../assets/css/partial/typography";
+@import "../../assets/css/partial/layout";
+
+#sobre-mim {
+    position: relative;
+}
+
+.carrossel-sobre {
+    position: absolute;
+    top: 0;
+    max-height: 750px !important;
+    height: 600px !important;
+}
+
+.container-texto-sobre {
+    z-index: 99;
+    position: relative;
+    max-height: 750px !important;
+    display: flex;
+    align-items: end;
+    padding-bottom: 100px;
+    height: 600px !important;
+
+    @include responsive(xs) {
+        padding-bottom: 120px !important;
+    }
+
+    @include responsive(s) {
+        padding-bottom: 200px !important;
+    }
+
+    @include responsive(l) {
+        padding-bottom: 200px !important;
+    }
+
+    @include responsive(xl) {
+        padding-bottom: 60px !important;
+    }
+}
+
+.owl-item {
+    height: 600px !important;
+}
+
+.container-texto-sobre {
+    h6 {
+        @include microtext;
+        text-transform: uppercase;
+    }
+
+    h3 {
+        @include subtitulo-primario;
+    }
+
+    span {
+        @include span;
+        max-width: 70%;
+
+        @include responsive(s) {
+            max-width: 100%;
+        }
+    }
+}

@@ -3,11 +3,8 @@
 @import "../../assets/css/partial/layout";
 
 #projetos {
-    padding: 100px 0px;
-
-    @include responsive(s) {
-        padding: 80px 0px;
-    }
+    padding: 100px 0px 0px 0px;
+    background-image: url("../../assets/img/projetos/projetos-bg.jpg");
 }
 
 #projetos {

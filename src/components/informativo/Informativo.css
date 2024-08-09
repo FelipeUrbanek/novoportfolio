@@ -95,81 +95,56 @@
   margin: 6rem !important;
 }
 
-#projetos {
-  padding: 100px 0px 0px 0px;
-  background-image: url("../../assets/img/projetos/projetos-bg.jpg");
+#informativo {
+  padding: 200px 0px 200px 0px;
+  background-image: url("../../../public/img/informativo/background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media screen and (max-width: 768px) {
+  #informativo {
+    padding: 100px 0px 100px 0px;
+  }
+}
+#informativo .col-lg-12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-#projetos h3 {
+#informativo p {
   color: #e1ebec;
   font-family: Inter;
   font-size: 3.0495rem;
   font-style: normal;
   font-weight: 600;
   letter-spacing: -0.1055rem;
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin: 32px;
 }
 @media screen and (max-width: 768px) {
-  #projetos h3 {
+  #informativo p {
     font-size: 1.5rem;
   }
 }
 @media screen and (max-width: 1000px) and (min-width: 768px) {
-  #projetos h3 {
+  #informativo p {
     font-size: 1.5rem;
   }
 }
 @media screen and (max-width: 1320px) and (min-width: 1000px) {
-  #projetos h3 {
+  #informativo p {
     font-size: 1.5rem;
   }
 }
-#projetos span {
-  color: #e1ebec;
-  /* linear.app/Inter/Semi Bold 13.78 */
-  font-family: Inter;
-  font-size: 0.96131rem;
-  font-style: normal;
-  font-weight: 600;
-  letter-spacing: -0.01125rem;
-  display: flex !important;
-  flex-direction: column !important;
-}
 @media screen and (max-width: 768px) {
-  #projetos span {
-    font-size: 16px;
+  #informativo p {
+    margin: 16px;
   }
-}
-
-.coluna-projetos {
-  margin-top: 60px;
-  width: 200% !important;
-}
-
-.box-projetos {
-  padding: 20px;
-  background-color: #222c30;
-}
-
-.textosprojetos {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.textosprojetos h4 {
-  color: #e1ebec;
-  font-family: Inter;
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 600;
-}
-@media screen and (max-width: 768px) {
-  .textosprojetos h4 {
-    font-size: 1rem;
-  }
-}
-.textosprojetos img,
-.textosprojetos svg {
-  max-width: 56px !important;
-}/*# sourceMappingURL=Projetos.css.map */
+}/*# sourceMappingURL=Informativo.css.map */

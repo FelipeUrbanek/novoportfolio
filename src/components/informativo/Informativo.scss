@@ -1,0 +1,39 @@
+@import "../../assets/css/partial/colors";
+@import "../../assets/css/partial/typography";
+@import "../../assets/css/partial/layout";
+
+#informativo {
+    padding: 200px 0px 200px 0px;
+
+    background-image: url("../../../public/img/informativo/background.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    @include responsive(s) {
+        padding: 100px 0px 100px 0px;
+    }
+
+    .col-lg-12 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+#informativo {
+    p {
+        @include subtitulo-primario;
+        text-align: center;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        margin: 32px;
+
+        @include responsive(s) {
+            margin: 16px;
+        }
+    }
+}

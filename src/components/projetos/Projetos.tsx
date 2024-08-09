@@ -16,9 +16,12 @@ const Projetos = () => {
     autoplay: true,
     autoplayTimeout: 8000,
     pauseOnHover: true,
+    pauseOnFocus: true,
+    pauseOnDrag: true,
     responsive: {
       0: {
         items: 2,
+        pauseOnHover: true,
       },
       600: {
         items: 4,

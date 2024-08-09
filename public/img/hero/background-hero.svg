@@ -1,15 +1,15 @@
-<svg width="1920" height="1105" viewBox="0 0 1920 1105" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg  viewBox="0 0 1920 1105" fill="none" xmlns="http://www.w3.org/2000/svg">
   <g id="background-hero">
-    <g id="esquerda-group">
+    <g id="esquerda-group" class="esquerda-group">
       <rect id="esquerda" width="1104" height="859" transform="matrix(0.95459 -0.297924 0.735305 0.677737 -710 365.908)" fill="black" fill-opacity="0.1"/>
     </g>
-    <g id="baixo-group">
+    <g id="baixo-group" class="baixo-group">
       <rect id="baixo" width="1104" height="859" transform="matrix(0.95459 -0.297924 0.735305 0.677737 133 521.908)" fill="black" fill-opacity="0.1"/>
     </g>
-    <g id="direita-group">
+    <g id="direita-group" class="direita-group">
       <rect id="direita" width="1104" height="859" transform="matrix(0.95459 -0.297924 0.735305 0.677737 756 197.908)" fill="black" fill-opacity="0.1"/>
     </g>
-    <g id="cima-group">
+    <g id="cima-group" class="cima-group">
       <rect id="cima" width="1104" height="859" transform="matrix(0.95459 -0.297924 0.735305 0.677737 -172 -61.092)" fill="black" fill-opacity="0.1"/>
     </g>
   </g>
