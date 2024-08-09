@@ -48,6 +48,7 @@
 
     span {
         @include span;
+
         margin-bottom: 40px;
 
         @include responsive(s) {
@@ -61,6 +62,7 @@
 
     h3 {
         @include subtitulo-primario;
+
         font-size: 3rem;
     }
 

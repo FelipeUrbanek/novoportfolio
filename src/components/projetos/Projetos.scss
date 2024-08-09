@@ -1,0 +1,50 @@
+@import "../../assets/css/partial/colors";
+@import "../../assets/css/partial/typography";
+@import "../../assets/css/partial/layout";
+
+#projetos {
+    padding: 100px 0px;
+
+    @include responsive(s) {
+        padding: 80px 0px;
+    }
+}
+
+#projetos {
+    h3 {
+        @include subtitulo-primario;
+    }
+
+    span {
+        @include span;
+    }
+}
+
+.coluna-projetos {
+    margin-top: 60px;
+    width: 200% !important;
+}
+
+.box-projetos {
+    padding: 20px;
+    background-color: $green-felipe-950;
+}
+
+.textosprojetos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 20px;
+}
+
+.textosprojetos {
+    h4 {
+        @include titulo-h4;
+    }
+
+    img,
+    svg {
+        max-width: 56px !important;
+    }
+}

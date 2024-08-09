@@ -4,11 +4,7 @@
 
 #tecnologias {
     position: relative !important;
-    padding: 0px 0px 100px 0px !important;
-
-    @include responsive(s) {
-        padding: 0px 0px 80px 0px !important;
-    }
+    padding: 0px 0px 0px 0px !important;
 }
 
 #tecnologias {
@@ -20,6 +16,7 @@
 #tecnologias {
     h3 {
         @include span;
+
         font-size: 1.5rem;
         color: $green-felipe-50;
 
