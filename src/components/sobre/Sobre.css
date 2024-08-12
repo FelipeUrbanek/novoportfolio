@@ -103,7 +103,30 @@
   position: absolute;
   top: 0;
   max-height: 750px !important;
-  height: 600px !important;
+  height: 750px !important;
+}
+@media screen and (max-width: 768px) {
+  .carrossel-sobre {
+    height: 600px !important;
+  }
+}
+.carrossel-sobre img {
+  height: 750px !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media screen and (max-width: 768px) {
+  .carrossel-sobre img {
+    height: 600px !important;
+  }
+}
+.carrossel-sobre .owl-item {
+  height: 750px !important;
+}
+@media screen and (max-width: 768px) {
+  .carrossel-sobre .owl-item {
+    height: 600px !important;
+  }
 }
 
 .container-texto-sobre {
@@ -112,32 +135,16 @@
   max-height: 750px !important;
   display: flex;
   align-items: end;
-  padding-bottom: 100px;
-  height: 600px !important;
-}
-@media screen and (max-width: 540px) {
-  .container-texto-sobre {
-    padding-bottom: 120px !important;
-  }
+  height: 750px !important;
 }
 @media screen and (max-width: 768px) {
   .container-texto-sobre {
-    padding-bottom: 200px !important;
+    height: 600px !important;
   }
 }
-@media screen and (max-width: 1320px) and (min-width: 1000px) {
-  .container-texto-sobre {
-    padding-bottom: 200px !important;
-  }
-}
-@media screen and (min-width: 1320px) {
-  .container-texto-sobre {
-    padding-bottom: 60px !important;
-  }
-}
-
-.owl-item {
-  height: 600px !important;
+.container-texto-sobre .col-lg-12 {
+  position: absolute;
+  bottom: 10% !important;
 }
 
 .container-texto-sobre h6 {
@@ -157,6 +164,7 @@
   font-style: normal;
   font-weight: 600;
   letter-spacing: -0.1055rem;
+  color: #a0bcc0;
 }
 @media screen and (max-width: 768px) {
   .container-texto-sobre h3 {

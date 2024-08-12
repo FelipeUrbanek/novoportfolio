@@ -232,4 +232,8 @@ a.btn-white:hover {
 .navbar-toggler:focus {
   outline: none !important;
   box-shadow: none !important;
+}
+
+.navbar-brand {
+  margin-right: 0px !important;
 }/*# sourceMappingURL=Header.css.map */

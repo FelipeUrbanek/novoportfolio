@@ -19,7 +19,7 @@ const Sobre = () => {
         items: 1,
         pauseOnHover: true,
       },
-      600: {
+      700: {
         items: 2,
       },
       1000: {

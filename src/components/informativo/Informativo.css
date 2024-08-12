@@ -145,5 +145,6 @@
 @media screen and (max-width: 768px) {
   #informativo p {
     margin: 16px;
+    font-size: 2rem !important;
   }
 }/*# sourceMappingURL=Informativo.css.map */
