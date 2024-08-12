@@ -62,7 +62,7 @@ const Header = () => {
               <li className="nav-item">
                 <a
                   className="btn-white"
-                  href="https://wa.me/5541995613026"
+                  href="https://wa.me/5541988816941"
                   target="_blank"
                 >
                   Contato

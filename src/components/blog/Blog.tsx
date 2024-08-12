@@ -11,26 +11,47 @@ const Blog = () => {
           </div>
           <div className="col-lg-4">
             <div className="box-blog">
-              <img src={projetosplace} className="img-fluid" alt="" srcSet="" />
-              <span>
-                Como o futuro da programação e o SPA vem ajudando os devs
-              </span>
+              <a href="">
+                <img
+                  src={projetosplace}
+                  className="img-fluid"
+                  alt=""
+                  srcSet=""
+                />
+                <span>
+                  Como o futuro da programação e o SPA vem ajudando os devs
+                </span>
+              </a>
             </div>
           </div>
           <div className="col-lg-4">
             <div className="box-blog">
-              <img src={projetosplace} className="img-fluid" alt="" srcSet="" />
-              <span>
-                Como o futuro da programação e o SPA vem ajudando os devs
-              </span>
+              <a href="">
+                <img
+                  src={projetosplace}
+                  className="img-fluid"
+                  alt=""
+                  srcSet=""
+                />
+                <span>
+                  Como o futuro da programação e o SPA vem ajudando os devs
+                </span>
+              </a>
             </div>
           </div>
           <div className="col-lg-4">
             <div className="box-blog">
-              <img src={projetosplace} className="img-fluid" alt="" srcSet="" />
-              <span>
-                Como o futuro da programação e o SPA vem ajudando os devs
-              </span>
+              <a href="">
+                <img
+                  src={projetosplace}
+                  className="img-fluid"
+                  alt=""
+                  srcSet=""
+                />
+                <span>
+                  Como o futuro da programação e o SPA vem ajudando os devs
+                </span>
+              </a>
             </div>
           </div>
         </div>

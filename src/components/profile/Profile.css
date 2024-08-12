@@ -95,83 +95,74 @@
   margin: 6rem !important;
 }
 
-#blog {
+#profile {
+  overflow: hidden !important;
   padding: 100px 0px;
 }
 @media screen and (max-width: 768px) {
-  #blog {
-    padding: 80px 0px;
+  #profile {
+    padding: 50px 0px;
   }
 }
 
-#blog h6 {
-  color: #f3f7f8;
-  /* linear.app/Inter/Semi Bold 20.02 */
-  font-family: Inter;
-  font-size: 1.251rem;
-  font-style: normal;
-  font-weight: 600;
-  letter-spacing: -0.02313rem;
-  margin-bottom: 8px;
-  color: #f3f7f8;
+#profile .profile-img {
+  filter: grayscale(100%);
+  border-radius: 50%;
+  max-width: 100px;
+  border: 4px solid #e1ebec;
 }
-#blog h3 {
+#profile h6 {
+  color: #e1ebec;
+}
+#profile h2 {
+  color: #e1ebec;
   color: #e1ebec;
   font-family: Inter;
   font-size: 3.0495rem;
   font-style: normal;
   font-weight: 600;
   letter-spacing: -0.1055rem;
-  margin-bottom: 40px;
 }
 @media screen and (max-width: 768px) {
-  #blog h3 {
+  #profile h2 {
     font-size: 1.5rem;
   }
 }
 @media screen and (max-width: 1000px) and (min-width: 768px) {
-  #blog h3 {
+  #profile h2 {
     font-size: 1.5rem;
   }
 }
 @media screen and (max-width: 1320px) and (min-width: 1000px) {
-  #blog h3 {
+  #profile h2 {
     font-size: 1.5rem;
   }
 }
-#blog span {
+#profile h3 {
+  color: #e1ebec;
   font-family: Inter;
-  font-size: 1.6425rem;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 1.875rem; /* 114.155% */
-  letter-spacing: -0.11375rem;
-  color: #e1ebec;
-  margin-top: 16px !important;
-  display: flex;
 }
 @media screen and (max-width: 768px) {
-  #blog img {
-    width: 100%;
-    aspect-ratio: 16/9;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-}
-@media screen and (max-width: 1000px) and (min-width: 768px) {
-  #blog img {
-    width: 100%;
-    aspect-ratio: 16/9;
-    -o-object-fit: cover;
-       object-fit: cover;
+  #profile h3 {
+    font-size: 1rem;
   }
 }
 
-.box-blog {
-  padding: 20px;
-  background-color: #222c30;
-  margin-top: 20px;
+.container-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
-.box-blog a {
-  text-decoration: none;
-}/*# sourceMappingURL=Blog.css.map */
+
+.gradient-profile {
+  position: absolute !important;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}/*# sourceMappingURL=Profile.css.map */

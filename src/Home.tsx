@@ -7,6 +7,8 @@ import Sobre from "./components/sobre/Sobre";
 import Solucoes from "./components/solucoes/Solucoes";
 import Tecnologias from "./components/tecnologias/Tecnologias";
 import Blog from "./components/blog/Blog";
+import Profile from "./components/profile/Profile";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <Solucoes />
       <Cta />
       <Blog />
+      <Profile />
+      <Footer />
     </>
   );
 }

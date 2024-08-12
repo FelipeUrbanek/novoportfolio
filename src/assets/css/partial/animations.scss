@@ -38,3 +38,29 @@
         transform: rotate(360deg);
     }
 }
+
+/* ANIMAÇÂO SVG PROFILE */
+
+/* ANIMAÇÃO SVG PROFILE */
+
+.gradient-profile {
+    animation: moveGradient 8s ease-in-out alternate infinite;
+}
+
+@keyframes moveGradient {
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+    25% {
+        transform: translateX(25%) translateY(25%);
+    }
+    50% {
+        transform: translateX(50%) translateY(50%);
+    }
+    75% {
+        transform: translateX(25%) translateY(75%);
+    }
+    100% {
+        transform: translateX(0) translateY(100%);
+    }
+}

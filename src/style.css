@@ -1677,6 +1677,353 @@ a.btn-white:hover {
   margin: 6rem !important;
 }
 
+#blog {
+  padding: 100px 0px;
+}
+@media screen and (max-width: 768px) {
+  #blog {
+    padding: 80px 0px;
+  }
+}
+
+#blog h6 {
+  color: #f3f7f8;
+  /* linear.app/Inter/Semi Bold 20.02 */
+  font-family: Inter;
+  font-size: 1.251rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.02313rem;
+  margin-bottom: 8px;
+  color: #f3f7f8;
+}
+#blog h3 {
+  color: #e1ebec;
+  font-family: Inter;
+  font-size: 3.0495rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.1055rem;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 768px) {
+  #blog h3 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+  #blog h3 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 1320px) and (min-width: 1000px) {
+  #blog h3 {
+    font-size: 1.5rem;
+  }
+}
+#blog span {
+  font-family: Inter;
+  font-size: 1.6425rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.875rem; /* 114.155% */
+  letter-spacing: -0.11375rem;
+  color: #e1ebec;
+  margin-top: 16px !important;
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  #blog img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+  #blog img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+.box-blog {
+  padding: 20px;
+  background-color: #222c30;
+  margin-top: 20px;
+}
+.box-blog a {
+  text-decoration: none;
+}
+
+/* Margins for my-* */
+.my-6 {
+  margin-top: 4rem !important;
+  margin-bottom: 4rem !important;
+}
+
+.my-7 {
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
+}
+
+.my-8 {
+  margin-top: 6rem !important;
+  margin-bottom: 6rem !important;
+}
+
+/* Margins for mx-* */
+.mx-6 {
+  margin-right: 4rem !important;
+  margin-left: 4rem !important;
+}
+
+.mx-7 {
+  margin-right: 5rem !important;
+  margin-left: 5rem !important;
+}
+
+.mx-8 {
+  margin-right: 6rem !important;
+  margin-left: 6rem !important;
+}
+
+/* Margins for mt-* */
+.mt-6 {
+  margin-top: 4rem !important;
+}
+
+.mt-7 {
+  margin-top: 5rem !important;
+}
+
+.mt-8 {
+  margin-top: 6rem !important;
+}
+
+/* Margins for mb-* */
+.mb-6 {
+  margin-bottom: 4rem !important;
+}
+
+.mb-7 {
+  margin-bottom: 5rem !important;
+}
+
+.mb-8 {
+  margin-bottom: 6rem !important;
+}
+
+/* Margins for ml-* */
+.ml-6 {
+  margin-left: 4rem !important;
+}
+
+.ml-7 {
+  margin-left: 5rem !important;
+}
+
+.ml-8 {
+  margin-left: 6rem !important;
+}
+
+/* Margins for mr-* */
+.mr-6 {
+  margin-right: 4rem !important;
+}
+
+.mr-7 {
+  margin-right: 5rem !important;
+}
+
+.mr-8 {
+  margin-right: 6rem !important;
+}
+
+/* Margins for m-* (all sides) */
+.m-6 {
+  margin: 4rem !important;
+}
+
+.m-7 {
+  margin: 5rem !important;
+}
+
+.m-8 {
+  margin: 6rem !important;
+}
+
+#profile {
+  overflow: hidden !important;
+  padding: 100px 0px;
+}
+@media screen and (max-width: 768px) {
+  #profile {
+    padding: 50px 0px;
+  }
+}
+
+#profile .profile-img {
+  filter: grayscale(100%);
+  border-radius: 50%;
+  max-width: 100px;
+  border: 4px solid #e1ebec;
+}
+#profile h6 {
+  color: #e1ebec;
+}
+#profile h2 {
+  color: #e1ebec;
+  color: #e1ebec;
+  font-family: Inter;
+  font-size: 3.0495rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.1055rem;
+}
+@media screen and (max-width: 768px) {
+  #profile h2 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+  #profile h2 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 1320px) and (min-width: 1000px) {
+  #profile h2 {
+    font-size: 1.5rem;
+  }
+}
+#profile h3 {
+  color: #e1ebec;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  #profile h3 {
+    font-size: 1rem;
+  }
+}
+
+.container-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.gradient-profile {
+  position: absolute !important;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+/* Margins for my-* */
+.my-6 {
+  margin-top: 4rem !important;
+  margin-bottom: 4rem !important;
+}
+
+.my-7 {
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
+}
+
+.my-8 {
+  margin-top: 6rem !important;
+  margin-bottom: 6rem !important;
+}
+
+/* Margins for mx-* */
+.mx-6 {
+  margin-right: 4rem !important;
+  margin-left: 4rem !important;
+}
+
+.mx-7 {
+  margin-right: 5rem !important;
+  margin-left: 5rem !important;
+}
+
+.mx-8 {
+  margin-right: 6rem !important;
+  margin-left: 6rem !important;
+}
+
+/* Margins for mt-* */
+.mt-6 {
+  margin-top: 4rem !important;
+}
+
+.mt-7 {
+  margin-top: 5rem !important;
+}
+
+.mt-8 {
+  margin-top: 6rem !important;
+}
+
+/* Margins for mb-* */
+.mb-6 {
+  margin-bottom: 4rem !important;
+}
+
+.mb-7 {
+  margin-bottom: 5rem !important;
+}
+
+.mb-8 {
+  margin-bottom: 6rem !important;
+}
+
+/* Margins for ml-* */
+.ml-6 {
+  margin-left: 4rem !important;
+}
+
+.ml-7 {
+  margin-left: 5rem !important;
+}
+
+.ml-8 {
+  margin-left: 6rem !important;
+}
+
+/* Margins for mr-* */
+.mr-6 {
+  margin-right: 4rem !important;
+}
+
+.mr-7 {
+  margin-right: 5rem !important;
+}
+
+.mr-8 {
+  margin-right: 6rem !important;
+}
+
+/* Margins for m-* (all sides) */
+.m-6 {
+  margin: 4rem !important;
+}
+
+.m-7 {
+  margin: 5rem !important;
+}
+
+.m-8 {
+  margin: 6rem !important;
+}
+
 /* Margins for my-* */
 .my-6 {
   margin-top: 4rem !important;
@@ -1810,6 +2157,29 @@ a.btn-white:hover {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+/* ANIMAÇÂO SVG PROFILE */
+/* ANIMAÇÃO SVG PROFILE */
+.gradient-profile {
+  animation: moveGradient 8s ease-in-out alternate infinite;
+}
+
+@keyframes moveGradient {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translateX(25%) translateY(25%);
+  }
+  50% {
+    transform: translateX(50%) translateY(50%);
+  }
+  75% {
+    transform: translateX(25%) translateY(75%);
+  }
+  100% {
+    transform: translateX(0) translateY(100%);
   }
 }
 body {

@@ -1,0 +1,181 @@
+/* Margins for my-* */
+.my-6 {
+  margin-top: 4rem !important;
+  margin-bottom: 4rem !important;
+}
+
+.my-7 {
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
+}
+
+.my-8 {
+  margin-top: 6rem !important;
+  margin-bottom: 6rem !important;
+}
+
+/* Margins for mx-* */
+.mx-6 {
+  margin-right: 4rem !important;
+  margin-left: 4rem !important;
+}
+
+.mx-7 {
+  margin-right: 5rem !important;
+  margin-left: 5rem !important;
+}
+
+.mx-8 {
+  margin-right: 6rem !important;
+  margin-left: 6rem !important;
+}
+
+/* Margins for mt-* */
+.mt-6 {
+  margin-top: 4rem !important;
+}
+
+.mt-7 {
+  margin-top: 5rem !important;
+}
+
+.mt-8 {
+  margin-top: 6rem !important;
+}
+
+/* Margins for mb-* */
+.mb-6 {
+  margin-bottom: 4rem !important;
+}
+
+.mb-7 {
+  margin-bottom: 5rem !important;
+}
+
+.mb-8 {
+  margin-bottom: 6rem !important;
+}
+
+/* Margins for ml-* */
+.ml-6 {
+  margin-left: 4rem !important;
+}
+
+.ml-7 {
+  margin-left: 5rem !important;
+}
+
+.ml-8 {
+  margin-left: 6rem !important;
+}
+
+/* Margins for mr-* */
+.mr-6 {
+  margin-right: 4rem !important;
+}
+
+.mr-7 {
+  margin-right: 5rem !important;
+}
+
+.mr-8 {
+  margin-right: 6rem !important;
+}
+
+/* Margins for m-* (all sides) */
+.m-6 {
+  margin: 4rem !important;
+}
+
+.m-7 {
+  margin: 5rem !important;
+}
+
+.m-8 {
+  margin: 6rem !important;
+}
+
+#footer {
+  background-color: #222c30;
+}
+
+#footer p {
+  color: #f3f7f8;
+  font-size: 0.90131rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.54506rem; /* 171.429% */
+}
+#footer a {
+  color: #f3f7f8;
+  font-size: 2rem;
+}
+#footer ul {
+  list-style: none;
+  padding-left: 0px;
+}
+#footer li,
+#footer a {
+  color: #c2d7da;
+  font-size: 0.90131rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.35194rem;
+  text-decoration: none;
+  margin: 16px 0px;
+}
+#footer .item-title {
+  color: #f3f7f8;
+  font-size: 0.99425rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.54506rem;
+}
+#footer img {
+  max-width: 64px;
+}
+#footer span {
+  color: #c2d7da;
+  font-size: 0.90131rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.35194rem;
+  margin: 16px 0px;
+}
+
+#footer .redesociais {
+  display: flex;
+  gap: 20px;
+}
+#footer .redesociais a {
+  font-size: 2rem;
+}
+
+.container-textos {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.linha-final {
+  border-top: 2px solid rgba(255, 255, 255, 0.219);
+}
+.linha-final .col-lg-12 {
+  display: flex;
+  justify-content: center;
+}
+.linha-final p {
+  margin: 20px auto;
+  display: flex;
+  font-family: "Inter";
+}
+
+.container-principal-footer {
+  padding: 100px 0px 80px 0px;
+}
+@media screen and (max-width: 768px) {
+  .container-principal-footer {
+    padding: 50px 0px 40px 0px;
+  }
+}/*# sourceMappingURL=Footer.css.map */
