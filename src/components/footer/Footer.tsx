@@ -5,7 +5,7 @@ const Footer = () => {
   useSVGInject();
   return (
     <section id="footer">
-      <div className="container-principal-footer container">
+      <div className="container container-principal-footer">
         <div className="row">
           <div className="col-lg-4 container-textos">
             <img src={logo} alt="" srcSet="" />
