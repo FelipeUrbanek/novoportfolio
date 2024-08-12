@@ -1,7 +1,5 @@
 import logo from "../../assets/img/navbar/logo.svg";
 import useSVGInject from "../../hooks/useSVGInject";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   useSVGInject();
@@ -28,7 +26,7 @@ const Footer = () => {
                 <i className="fab fa-instagram"></i>
               </a>
               <a href="">
-                <FontAwesomeIcon icon={faWhatsapp} />
+                <i className="fab fa-whatsapp"></i>
               </a>
             </div>
           </div>
