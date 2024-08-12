@@ -95,18 +95,16 @@
   margin: 6rem !important;
 }
 
-#solucoes {
+#blog {
   padding: 100px 0px;
-  position: relative;
-  overflow: hidden !important;
 }
 @media screen and (max-width: 768px) {
-  #solucoes {
+  #blog {
     padding: 80px 0px;
   }
 }
 
-#solucoes h6 {
+#blog h6 {
   color: #f3f7f8;
   /* linear.app/Inter/Semi Bold 20.02 */
   font-family: Inter;
@@ -117,7 +115,7 @@
   margin-bottom: 8px;
   color: #f3f7f8;
 }
-#solucoes h2 {
+#blog h3 {
   color: #e1ebec;
   font-family: Inter;
   font-size: 3.0495rem;
@@ -127,98 +125,50 @@
   margin-bottom: 40px;
 }
 @media screen and (max-width: 768px) {
-  #solucoes h2 {
+  #blog h3 {
     font-size: 1.5rem;
   }
 }
 @media screen and (max-width: 1000px) and (min-width: 768px) {
-  #solucoes h2 {
+  #blog h3 {
     font-size: 1.5rem;
   }
 }
 @media screen and (max-width: 1320px) and (min-width: 1000px) {
-  #solucoes h2 {
+  #blog h3 {
     font-size: 1.5rem;
   }
 }
-
-.container-solucoes-01 {
-  margin-bottom: 64px;
-}
-@media screen and (max-width: 768px) {
-  .container-solucoes-01 {
-    margin-bottom: 32px;
-  }
-}
-
-.box-solucoes {
+#blog span {
+  font-family: Inter;
+  font-size: 1.6425rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.875rem; /* 114.155% */
+  letter-spacing: -0.11375rem;
+  color: #e1ebec;
+  margin-top: 16px !important;
   display: flex;
-  flex-direction: column;
-  border-top: 2px solid #c2d7da;
-  padding-top: 40px;
-}
-
-.box-solucoes svg {
-  color: #c2d7da !important;
-  font-size: 2rem;
-  align-items: flex-start;
-  width: -moz-max-content;
-  width: max-content;
-}
-.box-solucoes h3 {
-  color: #e1ebec;
-  font-family: Inter;
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 600;
-  margin: 20px 0px;
-  font-size: 2rem;
 }
 @media screen and (max-width: 768px) {
-  .box-solucoes h3 {
-    font-size: 1rem;
-  }
-}
-@media screen and (max-width: 768px) {
-  .box-solucoes h3 {
-    font-size: 1.5rem;
-  }
-}
-.box-solucoes span {
-  color: #e1ebec;
-  /* linear.app/Inter/Semi Bold 13.78 */
-  font-family: Inter;
-  font-size: 0.96131rem;
-  font-style: normal;
-  font-weight: 600;
-  letter-spacing: -0.01125rem;
-  display: flex !important;
-  flex-direction: column !important;
-  margin-bottom: 20px;
-  color: #c2d7da;
-}
-@media screen and (max-width: 768px) {
-  .box-solucoes span {
-    font-size: 16px;
-  }
-}
-
-.gradient-solucoes {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  height: auto;
-  z-index: -1;
-}
-@media screen and (max-width: 768px) {
-  .gradient-solucoes {
-    top: 0%;
-    left: 0px;
+  #blog img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 @media screen and (max-width: 1000px) and (min-width: 768px) {
-  .gradient-solucoes {
-    top: 0%;
-    left: 0px;
+  #blog img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
-}/*# sourceMappingURL=Solucoes.css.map */
+}
+
+.box-blog {
+  padding: 20px;
+  background-color: #222c30;
+  margin-top: 20px;
+}/*# sourceMappingURL=Blog.css.map */

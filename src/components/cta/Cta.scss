@@ -1,0 +1,36 @@
+@import "../../assets/css/partial/colors";
+@import "../../assets/css/partial/typography";
+@import "../../assets/css/partial/layout";
+
+#cta {
+    padding: 100px 0px;
+    background-color: $green-felipe-950;
+
+    @include responsive(s) {
+        padding: 80px 0px;
+    }
+}
+
+#cta {
+    h3 {
+        @include subtitulo-primario;
+        margin-bottom: 20px;
+    }
+
+    span {
+        @include span;
+        font-size: 1.2rem;
+    }
+
+    a {
+        margin-right: auto !important;
+        display: flex;
+        @include responsive(s) {
+            margin-top: 20px;
+        }
+
+        @include responsive(m) {
+            margin-top: 20px;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+@import "../../assets/css/partial/colors";
+@import "../../assets/css/partial/typography";
+@import "../../assets/css/partial/layout";
+
+#blog {
+    padding: 100px 0px;
+
+    @include responsive(s) {
+        padding: 80px 0px;
+    }
+}
+
+#blog {
+    h6 {
+        @include microtext;
+        margin-bottom: 8px;
+        color: $green-felipe-50;
+    }
+    h3 {
+        @include subtitulo-primario;
+        margin-bottom: 40px;
+    }
+
+    span {
+        font-family: Inter;
+        font-size: 1.6425rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.875rem; /* 114.155% */
+        letter-spacing: -0.11375rem;
+        color: $green-felipe-100;
+        margin-top: 16px !important;
+        display: flex;
+    }
+
+    img {
+        @include responsive(s) {
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            object-fit: cover;
+        }
+
+        @include responsive(m) {
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            object-fit: cover;
+        }
+    }
+}
+
+.box-blog {
+    padding: 20px;
+    background-color: $green-felipe-950;
+    margin-top: 20px;
+}

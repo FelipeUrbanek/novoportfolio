@@ -95,96 +95,41 @@
   margin: 6rem !important;
 }
 
-#solucoes {
+#cta {
   padding: 100px 0px;
-  position: relative;
-  overflow: hidden !important;
+  background-color: #222c30;
 }
 @media screen and (max-width: 768px) {
-  #solucoes {
+  #cta {
     padding: 80px 0px;
   }
 }
 
-#solucoes h6 {
-  color: #f3f7f8;
-  /* linear.app/Inter/Semi Bold 20.02 */
-  font-family: Inter;
-  font-size: 1.251rem;
-  font-style: normal;
-  font-weight: 600;
-  letter-spacing: -0.02313rem;
-  margin-bottom: 8px;
-  color: #f3f7f8;
-}
-#solucoes h2 {
+#cta h3 {
   color: #e1ebec;
   font-family: Inter;
   font-size: 3.0495rem;
   font-style: normal;
   font-weight: 600;
   letter-spacing: -0.1055rem;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
-  #solucoes h2 {
+  #cta h3 {
     font-size: 1.5rem;
   }
 }
 @media screen and (max-width: 1000px) and (min-width: 768px) {
-  #solucoes h2 {
+  #cta h3 {
     font-size: 1.5rem;
   }
 }
 @media screen and (max-width: 1320px) and (min-width: 1000px) {
-  #solucoes h2 {
+  #cta h3 {
     font-size: 1.5rem;
   }
 }
-
-.container-solucoes-01 {
-  margin-bottom: 64px;
-}
-@media screen and (max-width: 768px) {
-  .container-solucoes-01 {
-    margin-bottom: 32px;
-  }
-}
-
-.box-solucoes {
-  display: flex;
-  flex-direction: column;
-  border-top: 2px solid #c2d7da;
-  padding-top: 40px;
-}
-
-.box-solucoes svg {
-  color: #c2d7da !important;
-  font-size: 2rem;
-  align-items: flex-start;
-  width: -moz-max-content;
-  width: max-content;
-}
-.box-solucoes h3 {
-  color: #e1ebec;
-  font-family: Inter;
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 600;
-  margin: 20px 0px;
-  font-size: 2rem;
-}
-@media screen and (max-width: 768px) {
-  .box-solucoes h3 {
-    font-size: 1rem;
-  }
-}
-@media screen and (max-width: 768px) {
-  .box-solucoes h3 {
-    font-size: 1.5rem;
-  }
-}
-.box-solucoes span {
+#cta span {
   color: #e1ebec;
   /* linear.app/Inter/Semi Bold 13.78 */
   font-family: Inter;
@@ -194,31 +139,24 @@
   letter-spacing: -0.01125rem;
   display: flex !important;
   flex-direction: column !important;
-  margin-bottom: 20px;
-  color: #c2d7da;
+  font-size: 1.2rem;
 }
 @media screen and (max-width: 768px) {
-  .box-solucoes span {
+  #cta span {
     font-size: 16px;
   }
 }
-
-.gradient-solucoes {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  height: auto;
-  z-index: -1;
+#cta a {
+  margin-right: auto !important;
+  display: flex;
 }
 @media screen and (max-width: 768px) {
-  .gradient-solucoes {
-    top: 0%;
-    left: 0px;
+  #cta a {
+    margin-top: 20px;
   }
 }
 @media screen and (max-width: 1000px) and (min-width: 768px) {
-  .gradient-solucoes {
-    top: 0%;
-    left: 0px;
+  #cta a {
+    margin-top: 20px;
   }
-}/*# sourceMappingURL=Solucoes.css.map */
+}/*# sourceMappingURL=Cta.css.map */
