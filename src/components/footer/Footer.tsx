@@ -10,10 +10,10 @@ const Footer = () => {
           <div className="col-lg-4 container-textos">
             <img src={logo} alt="" srcSet="" />
             <span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non a quo
-              similique quas quasi commodi voluptatem, nulla eveniet nihil id
-              quia accusantium quidem eos neque, nemo illum quaerat aperiam
-              enim!
+              Se você busca um site que realmente reflita sua marca e ofereça
+              uma experiência única aos seus visitantes, vamos conversar. Meu
+              foco é criar algo que seja totalmente seu, diferente de qualquer
+              outro.
             </span>
             <div className="redesociais">
               <a href="https://www.linkedin.com/in/felipe-urbanek-0a0b0b1b1/">

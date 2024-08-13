@@ -21,36 +21,30 @@ const Solucoes = () => {
             <div className="col-lg-4">
               <div className="box-solucoes">
                 <FontAwesomeIcon icon={faPenNib} className="mx-2" />
-                <h3>Design</h3>
+                <h3>Design Sob Medida</h3>
                 <span>
-                  Lorem ipsum dolor sit amet consectetur. Sit nec quam id
-                  quisque feugiat faucibus penatibus. Dolor aliquet fringilla
-                  non duis pulvinar nec maecenas. Velit iaculis ornare
-                  suspendisse.
+                  Crio sites do zero, garantindo que cada detalhe esteja
+                  alinhado com a identidade da sua marca.
                 </span>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="box-solucoes">
                 <FontAwesomeIcon icon={faCode} className="mx-2" />
-                <h3>Codigo</h3>
+                <h3>Código Limpo e Eficiente</h3>
                 <span>
-                  Lorem ipsum dolor sit amet consectetur. Sit nec quam id
-                  quisque feugiat faucibus penatibus. Dolor aliquet fringilla
-                  non duis pulvinar nec maecenas. Velit iaculis ornare
-                  suspendisse.
+                  Desenvolvo com foco em performance, resultando em sites
+                  rápidos e otimizados.
                 </span>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="box-solucoes">
                 <FontAwesomeIcon icon={faRecordVinyl} className="mx-2" />
-                <h3>Experiencia</h3>
+                <h3>Criatividade Livre</h3>
                 <span>
-                  Lorem ipsum dolor sit amet consectetur. Sit nec quam id
-                  quisque feugiat faucibus penatibus. Dolor aliquet fringilla
-                  non duis pulvinar nec maecenas. Velit iaculis ornare
-                  suspendisse.
+                  Sem limitações, cada projeto recebe o tratamento especial que
+                  merece para se destacar.
                 </span>
               </div>
             </div>

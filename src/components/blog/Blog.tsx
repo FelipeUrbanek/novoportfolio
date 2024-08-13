@@ -7,7 +7,7 @@ const Blog = () => {
         <div className="row">
           <div className="col-lg-12">
             <h6>Ultimas artigos</h6>
-            <h3>Blog</h3>
+            <h3>Fique por dentro das tendências e prepare-se para o futuro.</h3>
           </div>
           <div className="col-lg-4">
             <div className="box-blog">
@@ -19,7 +19,8 @@ const Blog = () => {
                   srcSet=""
                 />
                 <span>
-                  Como o futuro da programação e o SPA vem ajudando os devs
+                  Descubra como as tecnologias emergentes podem colocar seu
+                  negócio à frente da concorrência.
                 </span>
               </a>
             </div>
@@ -34,7 +35,8 @@ const Blog = () => {
                   srcSet=""
                 />
                 <span>
-                  Como o futuro da programação e o SPA vem ajudando os devs
+                  Aprenda as estratégias mais recentes para maximizar o impacto
+                  digital da sua empresa.
                 </span>
               </a>
             </div>
@@ -49,7 +51,8 @@ const Blog = () => {
                   srcSet=""
                 />
                 <span>
-                  Como o futuro da programação e o SPA vem ajudando os devs
+                  Insights práticos sobre como otimizar sua presença online e
+                  atrair mais clientes.
                 </span>
               </a>
             </div>

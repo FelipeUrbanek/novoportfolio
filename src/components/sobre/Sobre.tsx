@@ -56,12 +56,13 @@ const Sobre = () => {
             <h6>Felipe Urbanek</h6>
             <h3>Desenvolvedor Front-end</h3>
             <span>
-              Lorem ipsum dolor sit amet consectetur. Ultrices scelerisque enim
-              viverra sem feugiat adipiscing. Cras augue libero diam rutrum vel
-              adipiscing eget at. Nunc at amet nec cursus turpis id sit
-              pellentesque. Tellus convallis at feugiat porta neque. Adipiscing
-              sollicitudin habitasse elementum aliquet amet adipiscing eleifend.
-              Iaculis elementum tellus.
+              Transformo ideias em realidade digital com designs modernos e
+              código robusto. Com uma sólida experiência em São José dos Pinhais
+              - PR / Curitiba - PR, ajudo empresas a alcançar novos patamares no
+              mundo digital, criando presenças online que não apenas se
+              destacam, mas conectam verdadeiramente com seu público. Meu
+              compromisso é entregar soluções que geram resultados tangíveis e
+              impulsionam o crescimento do seu negócio.
             </span>
           </div>
         </div>

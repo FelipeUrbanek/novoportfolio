@@ -35,15 +35,14 @@ const Projetos = () => {
   return (
     <section id="projetos">
       <div className="container">
-        <div className="row">
+        <div className="row align-items-center">
           <div className="col-lg-6">
-            <h3>Trabalhos selecionados</h3>
+            <h3>Confira alguns dos meus projetos recentes:</h3>
           </div>
           <div className="col-lg-6">
             <span>
-              Lorem ipsum dolor sit amet consectetur. Blandit ullamcorper odio
-              consectetur vel. Quis in eu habitasse pharetra. Purus aliquet
-              turpis nunc commodo adipiscing aliquam quis integer. Eget.
+              Cada um destes projetos foi desenvolvido com foco na excelência e
+              em atender às necessidades específicas dos meus clientes.
             </span>
           </div>
         </div>

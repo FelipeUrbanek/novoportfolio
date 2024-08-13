@@ -6,8 +6,8 @@ const Cta = () => {
           <div className="col-lg-10">
             <h3>Entre em contato!</h3>
             <span>
-              Lorem ipsum dolor sit amet consectetur. Tincidunt sem augue
-              pellentesque egestas.
+              Seu site, sua identidade. Vamos criar algo exclusivo e memorável
+              para destacar sua marca online.
             </span>
           </div>
           <div className="col-lg-2">
