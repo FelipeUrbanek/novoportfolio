@@ -1,5 +1,6 @@
 import useSVGInject from "../../hooks/useSVGInject";
 import logo from "../../assets/img/navbar/logo.svg";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   useSVGInject();
@@ -29,9 +30,9 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <a className="navbar-brand" href="/">
+          <Link className="navbar-brand" to={"/"}>
             <img src={logo} className="svg-inject" alt="" />
-          </a>
+          </Link>
           <button
             type="button"
             className="navbar-toggler"
