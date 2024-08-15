@@ -95,96 +95,21 @@
   margin: 6rem !important;
 }
 
-#solucoes {
-  padding: 100px 0px;
-  position: relative;
-  overflow: hidden !important;
+#tecnologias-proposta {
+  position: relative !important;
+  padding: 0px 0px 80px 0px !important;
 }
 @media screen and (max-width: 768px) {
-  #solucoes {
-    padding: 80px 0px;
+  #tecnologias-proposta {
+    padding: 0px 0px 0px 0px !important;
   }
 }
 
-#solucoes h6 {
-  color: #f3f7f8;
-  /* linear.app/Inter/Semi Bold 20.02 */
-  font-family: Inter;
-  font-size: 1.251rem;
-  font-style: normal;
-  font-weight: 600;
-  letter-spacing: -0.02313rem;
-  margin-bottom: 8px;
-  color: #f3f7f8;
-}
-#solucoes h2 {
-  color: #e1ebec;
-  font-family: Inter;
-  font-size: 3.0495rem;
-  font-style: normal;
-  font-weight: 600;
-  letter-spacing: -0.1055rem;
-  margin-bottom: 40px;
-}
-@media screen and (max-width: 768px) {
-  #solucoes h2 {
-    font-size: 1.5rem;
-  }
-}
-@media screen and (max-width: 1000px) and (min-width: 768px) {
-  #solucoes h2 {
-    font-size: 1.5rem;
-  }
-}
-@media screen and (max-width: 1320px) and (min-width: 1000px) {
-  #solucoes h2 {
-    font-size: 1.5rem;
-  }
+#tecnologias-proposta .container {
+  position: relative !important;
 }
 
-.container-solucoes-01 {
-  margin-bottom: 64px;
-}
-@media screen and (max-width: 768px) {
-  .container-solucoes-01 {
-    margin-bottom: 32px;
-  }
-}
-
-.box-solucoes {
-  display: flex;
-  flex-direction: column;
-  border-top: 2px solid rgba(255, 255, 255, 0.219);
-  padding: 40px 0px;
-}
-
-.box-solucoes svg {
-  color: #c2d7da !important;
-  font-size: 2rem;
-  align-items: flex-start;
-  width: -moz-max-content;
-  width: max-content;
-}
-.box-solucoes h3 {
-  color: #e1ebec;
-  font-family: Inter;
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 600;
-  margin: 20px 0px;
-  font-size: 1.25rem;
-}
-@media screen and (max-width: 768px) {
-  .box-solucoes h3 {
-    font-size: 1rem;
-  }
-}
-@media screen and (max-width: 768px) {
-  .box-solucoes h3 {
-    font-size: 1.25rem;
-  }
-}
-.box-solucoes span {
+#tecnologias-proposta h3 {
   color: #e1ebec;
   /* linear.app/Inter/Semi Bold 13.78 */
   font-family: Inter;
@@ -194,31 +119,101 @@
   letter-spacing: -0.01125rem;
   display: flex !important;
   flex-direction: column !important;
-  margin-bottom: 20px;
-  color: #c2d7da;
+  font-size: 1.5rem;
+  color: #f3f7f8;
 }
 @media screen and (max-width: 768px) {
-  .box-solucoes span {
+  #tecnologias-proposta h3 {
     font-size: 16px;
   }
 }
-
-.gradient-solucoes {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  height: auto;
-  z-index: -1;
+#tecnologias-proposta h3 strong {
+  color: #c2d7da;
+  font-weight: 600;
+}
+#tecnologias-proposta span {
+  color: #e1ebec;
+  /* linear.app/Inter/Semi Bold 13.78 */
+  font-family: Inter;
+  font-size: 0.96131rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.01125rem;
+  display: flex !important;
+  flex-direction: column !important;
 }
 @media screen and (max-width: 768px) {
-  .gradient-solucoes {
-    top: 0%;
-    left: 0px;
+  #tecnologias-proposta span {
+    font-size: 16px;
+  }
+}
+#tecnologias-proposta img {
+  width: 100%;
+  height: auto;
+}
+#tecnologias-proposta svg {
+  z-index: -1;
+}
+#tecnologias-proposta h2 {
+  color: #e1ebec;
+  font-family: Inter;
+  font-size: 3.0495rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.1055rem;
+  font-size: 3rem;
+}
+@media screen and (max-width: 768px) {
+  #tecnologias-proposta h2 {
+    font-size: 1.5rem;
   }
 }
 @media screen and (max-width: 1000px) and (min-width: 768px) {
-  .gradient-solucoes {
-    top: 0%;
-    left: 0px;
+  #tecnologias-proposta h2 {
+    font-size: 1.5rem;
   }
-}/*# sourceMappingURL=Solucoes.css.map */
+}
+@media screen and (max-width: 1320px) and (min-width: 1000px) {
+  #tecnologias-proposta h2 {
+    font-size: 1.5rem;
+  }
+}
+#tecnologias-proposta h6 {
+  color: #f3f7f8;
+  /* linear.app/Inter/Semi Bold 20.02 */
+  font-family: Inter;
+  font-size: 1.251rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.02313rem;
+}
+
+.gradienttecnologias {
+  position: absolute !important;
+  top: 0%;
+  left: 0%;
+  width: 100% !important;
+  height: 200px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .container-tecnologias {
+    margin-top: 20px !important;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+  .container-tecnologias {
+    margin-top: 20px !important;
+  }
+}
+
+.selotecnologias {
+  max-width: 160px !important;
+  margin: 0 auto !important;
+  margin-top: 20px !important;
+}
+@media screen and (max-width: 768px) {
+  .selotecnologias {
+    max-width: 100px !important;
+  }
+}/*# sourceMappingURL=Tecnologias_Proposta.css.map */

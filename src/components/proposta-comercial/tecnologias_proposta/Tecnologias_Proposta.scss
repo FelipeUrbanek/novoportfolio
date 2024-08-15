@@ -1,0 +1,80 @@
+@import "../../../assets/css/partial/colors";
+@import "../../../assets/css/partial/typography";
+@import "../../../assets/css/partial/layout";
+
+#tecnologias-proposta {
+    position: relative !important;
+    padding: 0px 0px 80px 0px !important;
+    @include responsive(s) {
+        padding: 0px 0px 0px 0px !important;
+    }
+}
+
+#tecnologias-proposta {
+    .container {
+        position: relative !important;
+    }
+}
+
+#tecnologias-proposta {
+    h3 {
+        @include span;
+
+        font-size: 1.5rem;
+        color: $green-felipe-50;
+
+        strong {
+            color: $green-felipe-200;
+            font-weight: 600;
+        }
+    }
+
+    span {
+        @include span;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+    svg {
+        z-index: -1;
+    }
+
+    h2 {
+        @include subtitulo-primario;
+        font-size: 3rem;
+    }
+
+    h6 {
+        @include microtext;
+    }
+}
+
+.gradienttecnologias {
+    position: absolute !important;
+    top: 0%;
+    left: 0%;
+    width: 100% !important;
+    height: 200px !important;
+}
+
+.container-tecnologias {
+    @include responsive(s) {
+        margin-top: 20px !important;
+    }
+
+    @include responsive(m) {
+        margin-top: 20px !important;
+    }
+}
+
+.selotecnologias {
+    max-width: 160px !important;
+    margin: 0 auto !important;
+    margin-top: 20px !important;
+
+    @include responsive(s) {
+        max-width: 100px !important;
+    }
+}

@@ -95,83 +95,108 @@
   margin: 6rem !important;
 }
 
-#profile {
-  overflow: hidden !important;
-  padding: 100px 0px;
+#hero-proposta {
+  padding: 270px 0px 220px 0px;
+  position: relative;
 }
 @media screen and (max-width: 768px) {
-  #profile {
-    padding: 50px 0px;
+  #hero-proposta {
+    padding: 200px 0px 100px 0px;
   }
 }
 
-#profile .profile-img {
-  filter: grayscale(100%);
-  border-radius: 50%;
-  max-width: 100px;
-  border: 4px solid #e1ebec;
+#hero-proposta #background-hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100%;
+  z-index: -2;
 }
 @media screen and (max-width: 768px) {
-  #profile .profile-img {
-    max-width: 80px;
+  #hero-proposta #background-hero {
+    width: 200% !important;
   }
 }
-#profile h6 {
-  color: #e1ebec;
+#hero-proposta #gradient-hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
 }
-#profile h2 {
-  color: #e1ebec;
+
+#hero-proposta h1 {
   color: #e1ebec;
   font-family: Inter;
-  font-size: 3.0495rem;
+  font-size: 5.67806rem;
   font-style: normal;
   font-weight: 600;
-  letter-spacing: -0.1055rem;
+  letter-spacing: -0.10763rem;
 }
 @media screen and (max-width: 768px) {
-  #profile h2 {
-    font-size: 1.5rem;
+  #hero-proposta h1 {
+    font-size: 3rem;
   }
 }
 @media screen and (max-width: 1000px) and (min-width: 768px) {
-  #profile h2 {
-    font-size: 1.5rem;
+  #hero-proposta h1 {
+    font-size: 3rem;
   }
 }
 @media screen and (max-width: 1320px) and (min-width: 1000px) {
-  #profile h2 {
-    font-size: 1.5rem;
+  #hero-proposta h1 {
+    font-size: 3rem;
   }
 }
-#profile h3 {
-  color: #e1ebec;
+#hero-proposta h6 {
+  color: #f3f7f8;
+  /* linear.app/Inter/Semi Bold 20.02 */
   font-family: Inter;
-  font-size: 1.5rem;
+  font-size: 1.251rem;
   font-style: normal;
   font-weight: 600;
+  letter-spacing: -0.02313rem;
+}
+#hero-proposta span {
+  color: #e1ebec;
+  /* linear.app/Inter/Semi Bold 13.78 */
+  font-family: Inter;
+  font-size: 0.96131rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.01125rem;
+  display: flex !important;
+  flex-direction: column !important;
+  width: 50%;
 }
 @media screen and (max-width: 768px) {
-  #profile h3 {
-    font-size: 1rem;
+  #hero-proposta span {
+    font-size: 16px;
   }
 }
-
-.container-profile {
+@media screen and (max-width: 768px) {
+  #hero-proposta span {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+  #hero-proposta span {
+    width: 100%;
+  }
+}
+#hero-proposta a {
+  margin-top: 20px;
   display: flex;
-  flex-direction: column;
+}
+
+.container-proposta {
+  display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-}
-
-.gradient-profile {
-  position: absolute !important;
-  z-index: -1;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-}
-
-#profile h2 {
+  flex-direction: column;
   text-align: center;
-}/*# sourceMappingURL=Profile.css.map */
+  padding: 0px 20px;
+}/*# sourceMappingURL=Hero_Proposta.css.map */

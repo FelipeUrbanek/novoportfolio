@@ -4,6 +4,7 @@ import App from "./App.tsx";
 import Home from "./pages/Home.tsx";
 import Contato from "./pages/Contato.tsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Proposta_comercial from "./pages/Proposta_comercial.tsx";
 
 const router = createBrowserRouter([
   {
@@ -12,6 +13,8 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <Home /> },
       { path: "/contato", element: <Contato /> },
+      { path: "*", element: <h1>404</h1> },
+      { path: "/proposta-comercial", element: <Proposta_comercial /> },
     ],
   },
 ]);

@@ -17,6 +17,10 @@
         border-radius: 50%;
         max-width: 100px;
         border: 4px solid $green-felipe-100;
+
+        @include responsive(s) {
+            max-width: 80px;
+        }
     }
 
     h6 {

@@ -7,10 +7,12 @@ import Projetos from "../components/projetos/Projetos";
 import Sobre from "../components/sobre/Sobre";
 import Solucoes from "../components/solucoes/Solucoes";
 import Tecnologias from "../components/tecnologias/Tecnologias";
+import ScrollToTop from "../hooks/ScrollToTop";
 
 const Home = () => {
   return (
     <>
+      <ScrollToTop />
       <Hero />
       <Tecnologias />
       <Projetos />

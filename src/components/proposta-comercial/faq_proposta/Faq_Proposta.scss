@@ -1,0 +1,37 @@
+@import "../../../assets/css/partial/colors";
+@import "../../../assets/css/partial/typography";
+@import "../../../assets/css/partial/layout";
+
+#faq {
+    padding: 100px 0px;
+
+    @include responsive(s) {
+        padding: 80px 0px;
+    }
+}
+
+#faq {
+    h6 {
+        @include microtext;
+        margin-bottom: 8px;
+        color: $green-felipe-50;
+    }
+    h2 {
+        @include subtitulo-primario;
+        margin-bottom: 40px;
+    }
+
+    h3 {
+        @include titulo-h4;
+        font-size: 1.251rem;
+
+        @include responsive(s) {
+            font-size: 1.251rem;
+        }
+    }
+    span {
+        @include span;
+        color: $green-felipe-200;
+        margin: 32px 0px;
+    }
+}

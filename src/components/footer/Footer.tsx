@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../../assets/img/navbar/logo.svg";
 import useSVGInject from "../../hooks/useSVGInject";
 
@@ -57,7 +58,7 @@ const Footer = () => {
                 <a href="">Postagens</a>
               </li>
               <li>
-                <a href="">Proposta Comercial</a>
+                <Link to="/proposta-comercial">Proposta Comercial</Link>
               </li>
             </ul>
           </div>
