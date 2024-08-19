@@ -13,8 +13,8 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <Home /> },
       { path: "/contato", element: <Contato /> },
-      { path: "*", element: <h1>404</h1> },
-      { path: "/proposta-comercial", element: <Proposta_comercial /> },
+      { path: "/proposta-comercial/:id", element: <Proposta_comercial /> }, // Rota dinâmica com parâmetro ID
+      { path: "*", element: <h1>404 - Página não encontrada</h1> },
     ],
   },
 ]);

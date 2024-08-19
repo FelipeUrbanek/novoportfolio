@@ -1,64 +1,100 @@
-import tecimg from "../../../assets/img/tecnologias/Img.svg";
-import gradientshort from "../../../assets/img/elementos/GradientShort.svg";
-import selo from "../../../assets/img/elementos/selo.svg";
+import { useEffect, useState } from "react";
+import { useParams, useNavigate } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faPenNib,
+  faCode,
+  faRecordVinyl,
+  faArrowDown,
+  faArrowUp,
+} from "@fortawesome/free-solid-svg-icons"; // Importando os ícones
+import { IconDefinition } from "@fortawesome/fontawesome-svg-core"; // Importando o tipo correto
 import useSVGInject from "../../../hooks/useSVGInject";
+import gradient from "../../../assets/img/elementos/gradientsolucoes.svg";
+import propostaData from "../../../assets/json/Proposta_Comercial.json"; // Importando os dados
 
-const Tecnologias_Proposta = () => {
+// Definindo a interface para os itens da proposta comercial
+interface PropostaItem {
+  titulo: string;
+  descricao: string;
+  icone: string; // Nome do ícone do Font Awesome
+}
+
+// Definindo a interface para a proposta comercial
+interface PropostaComercial {
+  itens: PropostaItem[];
+  preco: string;
+  precooriginal: string; // Preço original
+}
+
+// Mapeamento dos ícones
+const iconMap: { [key: string]: IconDefinition } = {
+  penNib: faPenNib,
+  code: faCode,
+  recordVinyl: faRecordVinyl,
+  arrowDown: faArrowDown,
+  arrowUp: faArrowUp,
+};
+
+const Solucoes_Proposta: React.FC = () => {
   useSVGInject();
+  const { id } = useParams<{ id: string }>();
+  const navigate = useNavigate();
+  const [proposta, setProposta] = useState<PropostaComercial | null>(null); // Usando a interface
+
+  useEffect(() => {
+    const clienteData = propostaData.find(
+      (cliente) => cliente.id === parseInt(id!)
+    );
+    if (clienteData) {
+      setProposta(clienteData.proposta_comercial);
+    } else {
+      navigate("/");
+    }
+  }, [id, navigate]);
+
   return (
-    <section id="tecnologias-proposta">
-      <div className="container">
-        <div className="row align-items-center">
-          <div className="col-lg-6">
-            <h6>Essa é nossa</h6>
-            <h2>Proposta Comercial</h2>
-            <h3>
-              Vamos Trabalhar com as seguintes tecnologias
-              <strong>para ajudar a evoluir o seu projeto</strong>
-            </h3>
+    <div>
+      <section id="solucoes" className="solucoes-proposta">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12 container-solucoes-01">
+              <h6>Detalhes</h6>
+              <h2>Vamos utilizar a seguinte abordagem</h2>
+            </div>
           </div>
-          <div className="col-lg-6">
-            <div className="row container-tecnologias">
-              <div className="col-lg-4 col-6">
-                <img src={tecimg} alt="" />
+          <div className="row">
+            {proposta?.itens.map((item: PropostaItem, index: number) => (
+              <div className="col-lg-4" key={index}>
+                <div className="box-solucoes">
+                  <FontAwesomeIcon
+                    icon={iconMap[item.icone]}
+                    className="mx-2"
+                  />{" "}
+                  {/* Usando o mapeamento */}
+                  <h3>{item.titulo}</h3>
+                  <span>{item.descricao}</span>
+                </div>
               </div>
-              <div className="col-lg-4 col-6">
-                <img src={tecimg} alt="" />
-              </div>
-              <div className="col-lg-4 col-6">
-                <img src={tecimg} alt="" />
-              </div>
-              <div className="col-lg-4 col-6">
-                <img src={tecimg} alt="" />
-              </div>
-              <div className="col-lg-4 col-6">
-                <img src={tecimg} alt="" />
-              </div>
-              <div className="col-lg-4 col-6">
-                <img src={tecimg} alt="" />
+            ))}
+          </div>
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="box-preco">
+                <h4>Pelo investimento de apenas:</h4>
+                <h3>
+                  <s>{proposta?.precooriginal}</s>
+                </h3>
+                <h2>{proposta?.preco}</h2>
+                <span>Com parcelamento facilitado</span>
               </div>
             </div>
           </div>
         </div>
-        <div className="row mt-2">
-          <div className="container">
-            <div className="col-lg-12 d-flex">
-              <img
-                src={selo}
-                className="selotecnologias img-fluid svg-inject"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <img
-        src={gradientshort}
-        alt=""
-        className="gradienttecnologias svg-inject"
-      />
-    </section>
+        <img src={gradient} className="gradient-solucoes img-fluid" alt="" />
+      </section>
+    </div>
   );
 };
 
-export default Tecnologias_Proposta;
+export default Solucoes_Proposta;

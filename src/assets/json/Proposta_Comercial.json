@@ -1,0 +1,245 @@
+[
+  {
+    "id": 1,
+    "nome_cliente": "Bruna Maia",
+    "descricao": "Lorem ipsum dolor sit amet consectetur. Faucibus imperdiet habitant morbi malesuada convallis gravida amet.",
+    "projetos": [
+      {
+        "titulo": "Site 01 - Example",
+        "detalhes": "Lorem ipsum dolor sit amet consectetur. Faucibus imperdiet habitant morbi malesuada convallis gravida amet."
+      },
+      {
+        "titulo": "Site 02 - Example",
+        "detalhes": "Tincidunt praesent elit amet etiam elementum nulla vulputate faucibus donec."
+      }
+    ],
+    "proposta_comercial": {
+      "itens": [
+        {
+          "titulo": "Design Sob Medida",
+          "descricao": "Crio sites do zero, garantindo que cada detalhe esteja alinhado com a identidade da sua marca.",
+          "icone": "penNib"
+        },
+        {
+          "titulo": "Código Limpo e Eficiente",
+          "descricao": "Desenvolvo com foco em performance, resultando em sites rápidos e otimizados.",
+          "icone": "code"
+        },
+        {
+          "titulo": "Criatividade Livre",
+          "descricao": "Sem limitações, cada projeto recebe o tratamento especial que merece para se destacar.",
+          "icone": "recordVinyl"
+        }
+      ],
+      "preco": "R$ 1.100,00",
+      "precooriginal": "R$ 1.500,00"
+    },
+    "contato": {
+      "telefone": "(41) 9 9999-9999",
+      "email": "contato@felipeurbanek.com",
+      "localizacao": "São José dos Pinhais - PR / Curitiba - PR"
+    },
+    "tecnologias": [
+      "sass.svg",
+      "typescript.svg",
+      "nodejs.svg",
+      "wordpress.svg",
+      "html5.svg",
+      "nextjs.svg"
+    ]
+  },
+  {
+    "id": 2,
+    "nome_cliente": "Felipe Urbanek",
+    "descricao": "Desenvolveremos seu web site com layout moderno e responsivo, utilizando as melhores tecnologias do mercado.",
+    "projetos": [
+      {
+        "titulo": "Site 03 - Example",
+        "detalhes": "Lorem ipsum dolor sit amet consectetur. Ultrices scelerisque enim viverra sem feugiat adipiscing."
+      },
+      {
+        "titulo": "Site 04 - Example",
+        "detalhes": "Cras augue libero diam rutrum vel."
+      }
+    ],
+    "proposta_comercial": {
+      "itens": [
+        {
+          "titulo": "Design Sob Medida",
+          "descricao": "Crio sites do zero, garantindo que cada detalhe esteja alinhado com a identidade da sua marca.",
+          "icone": "penNib"
+        },
+        {
+          "titulo": "Código Limpo e Eficiente",
+          "descricao": "Desenvolvo com foco em performance, resultando em sites rápidos e otimizados.",
+          "icone": "code"
+        },
+        {
+          "titulo": "Criatividade Livre",
+          "descricao": "Sem limitações, cada projeto recebe o tratamento especial que merece para se destacar.",
+          "icone": "recordVinyl"
+        }
+      ],
+      "preco": "R$ 1.200,00",
+      "precooriginal": "R$ 1.500,00"
+    },
+    "contato": {
+      "telefone": "(41) 9 8888-8888",
+      "email": "felipe@urbanek.com",
+      "localizacao": "Curitiba - PR"
+    },
+    "tecnologias": [
+      "react.svg",
+      "typescript.svg",
+      "nodejs.svg",
+      "wordpress.svg",
+      "html5.svg",
+      "sass.svg"
+    ]
+  },
+  {
+    "id": 3,
+    "nome_cliente": "João Silva",
+    "descricao": "Lorem ipsum dolor sit amet consectetur. Faucibus imperdiet habitant morbi malesuada convallis gravida amet.",
+    "projetos": [
+      {
+        "titulo": "Site 05 - Example",
+        "detalhes": "Lorem ipsum dolor sit amet consectetur. Accumsan tristique tellus posuere justo tristique ac."
+      },
+      {
+        "titulo": "Site 06 - Example",
+        "detalhes": "Vehicula elementum non urna gravida malesuada quam accumsan malesuada."
+      }
+    ],
+    "proposta_comercial": {
+      "itens": [
+        {
+          "titulo": "Design Sob Medida",
+          "descricao": "Crio sites do zero, garantindo que cada detalhe esteja alinhado com a identidade da sua marca.",
+          "icone": "penNib"
+        },
+        {
+          "titulo": "Código Limpo e Eficiente",
+          "descricao": "Desenvolvo com foco em performance, resultando em sites rápidos e otimizados.",
+          "icone": "code"
+        },
+        {
+          "titulo": "Criatividade Livre",
+          "descricao": "Sem limitações, cada projeto recebe o tratamento especial que merece para se destacar.",
+          "icone": "recordVinyl"
+        }
+      ],
+      "preco": "R$ 1.200,00",
+      "precooriginal": "R$ 1.500,00"
+    },
+    "contato": {
+      "telefone": "(41) 9 7777-7777",
+      "email": "joao@silva.com",
+      "localizacao": "São Paulo - SP"
+    },
+    "tecnologias": [
+      "wordpress.svg",
+      "typescript.svg",
+      "jest.svg",
+      "graphql.svg",
+      "html5.svg",
+      "css3.svg"
+    ]
+  },
+  {
+    "id": 4,
+    "nome_cliente": "Mariana Costa",
+    "descricao": "Lorem ipsum dolor sit amet consectetur. Faucibus imperdiet habitant morbi malesuada convallis gravida amet.",
+    "projetos": [
+      {
+        "titulo": "Site 07 - Example",
+        "detalhes": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae."
+      },
+      {
+        "titulo": "Site 08 - Example",
+        "detalhes": "Aliquam erat volutpat. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }
+    ],
+    "proposta_comercial": {
+      "itens": [
+        {
+          "titulo": "Design Sob Medida",
+          "descricao": "Crio sites do zero, garantindo que cada detalhe esteja alinhado com a identidade da sua marca.",
+          "icone": "penNib"
+        },
+        {
+          "titulo": "Código Limpo e Eficiente",
+          "descricao": "Desenvolvo com foco em performance, resultando em sites rápidos e otimizados.",
+          "icone": "code"
+        },
+        {
+          "titulo": "Criatividade Livre",
+          "descricao": "Sem limitações, cada projeto recebe o tratamento especial que merece para se destacar.",
+          "icone": "recordVinyl"
+        }
+      ],
+      "preco": "R$ 1.300,00",
+      "precooriginal": "R$ 1.500,00"
+    },
+    "contato": {
+      "telefone": "(41) 9 6666-6666",
+      "email": "mariana@costa.com",
+      "localizacao": "Florianópolis - SC"
+    },
+    "tecnologias": [
+      "html5.svg",
+      "css3.svg",
+      "javascript.svg",
+      "wordpress.svg",
+      "react.svg"
+    ]
+  },
+  {
+    "id": 5,
+    "nome_cliente": "Carlos Almeida",
+    "descricao": "Lorem ipsum dolor sit amet consectetur. Faucibus imperdiet habitant morbi malesuada convallis gravida amet.",
+    "projetos": [
+      {
+        "titulo": "Site 09 - Example",
+        "detalhes": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+      },
+      {
+        "titulo": "Site 10 - Example",
+        "detalhes": "Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra."
+      }
+    ],
+    "proposta_comercial": {
+      "itens": [
+        {
+          "titulo": "Design Sob Medida",
+          "descricao": "Crio sites do zero, garantindo que cada detalhe esteja alinhado com a identidade da sua marca.",
+          "icone": "penNib"
+        },
+        {
+          "titulo": "Código Limpo e Eficiente",
+          "descricao": "Desenvolvo com foco em performance, resultando em sites rápidos e otimizados.",
+          "icone": "code"
+        },
+        {
+          "titulo": "Criatividade Livre",
+          "descricao": "Sem limitações, cada projeto recebe o tratamento especial que merece para se destacar.",
+          "icone": "recordVinyl"
+        }
+      ],
+      "preco": "R$ 1.400,00",
+      "precooriginal": "R$ 1.700,00"
+    },
+    "contato": {
+      "telefone": "(41) 9 5555-5555",
+      "email": "carlos@almeida.com",
+      "localizacao": "Belo Horizonte - MG"
+    },
+    "tecnologias": [
+      "typescript.svg",
+      "nodejs.svg",
+      "graphql.svg",
+      "jest.svg",
+      "html5.svg"
+    ]
+  }
+]
