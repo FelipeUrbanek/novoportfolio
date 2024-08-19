@@ -9,9 +9,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 const Hero = () => {
   useSVGInject();
 
-  const [additionalText, setAdditionalText] = useState<string>(
-    "Dedicado a criar websites únicos e personalizados."
-  );
+  const [additionalText, setAdditionalText] = useState<string>("");
 
   const genAI = useMemo(() => {
     return new GoogleGenerativeAI("AIzaSyCN3ardnoRHO2AfIl0qxXzfvte2Bg_nLwA"); // Substitua pela sua chave API
@@ -31,7 +29,7 @@ const Hero = () => {
       return;
     }
 
-    const prompt = `Gere uma frase única e atraente em primeira pessoa (usando EU) que destaque os serviços de desenvolvimento front-end de Felipe Urbanek. A frase deve enfatizar a criação de websites personalizados que capturam a essência da marca do cliente. Garanta que a frase seja cativante e direta, com foco na venda dos serviços. Somente uma frase, sem caracteres especiais. Ela precisa ter pelo menos 200 caracteres.`;
+    const prompt = `Gere uma frase única e atraente em primeira pessoa (EU) que destaque os serviços de desenvolvimento front-end de Felipe Urbanek. A frase deve enfatizar a criação de websites personalizados que capturam a essência da marca do cliente. Garanta que a frase seja cativante e direta, com foco na venda dos serviços. Somente uma frase, sem caracteres especiais. Ela precisa ter pelo menos 200 caracteres.`;
 
     try {
       const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
@@ -58,14 +56,20 @@ const Hero = () => {
             Date.now().toString()
           );
         } else {
-          setAdditionalText("Erro ao gerar descrição.");
+          setAdditionalText(
+            "Eu transformo ideias em realidades digitais, criando websites personalizados que capturam a essência da sua marca e a conectam com o seu público da maneira mais eficaz, impactante e memorável.rro ao gerar descrição."
+          );
         }
       } else {
-        setAdditionalText("Erro ao gerar descrição.");
+        setAdditionalText(
+          "Eu transformo ideias em realidades digitais, criando websites personalizados que capturam a essência da sua marca e a conectam com o seu público da maneira mais eficaz, impactante e memorável."
+        );
       }
     } catch (error) {
       console.error("Erro ao gerar descrição:", error);
-      setAdditionalText("Erro ao gerar descrição.");
+      setAdditionalText(
+        "Eu transformo ideias em realidades digitais, criando websites personalizados que capturam a essência da sua marca e a conectam com o seu público da maneira mais eficaz, impactante e memorável."
+      );
     }
   }, [genAI]);
 
@@ -87,7 +91,10 @@ const Hero = () => {
                 <FontAwesomeIcon icon={faLocationDot} className="mx-2" />
               </h4>
             </div>
-            <span>{additionalText}</span>
+            {/* Renderiza o conteúdo apenas se additionalText estiver definido */}
+            {additionalText && (
+              <span>{additionalText}</span> // Exibe o texto gerado
+            )}
             <a href="#" className="btn-white">
               Contate-me
             </a>
