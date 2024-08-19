@@ -41,7 +41,6 @@ interface Cliente {
   proposta_comercial: PropostaComercial; // Agora corresponde à nova estrutura
   contato: Contato;
   tecnologias: string[];
-  descricao: string;
 }
 
 const Proposta_comercial: React.FC = () => {
@@ -69,7 +68,7 @@ const Proposta_comercial: React.FC = () => {
       <ScrollToTop />
       <Hero_Proposta
         nome_cliente={cliente.nome_cliente}
-        descricao={cliente.descricao || ""}
+        descricao={cliente.projetos[0]?.detalhes || ""}
       />
       <Tecnologias_Proposta />
       <Solucoes_Proposta />
