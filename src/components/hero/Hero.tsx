@@ -16,7 +16,6 @@ const Hero = () => {
   const genAI = useMemo(() => {
     return new GoogleGenerativeAI("AIzaSyCN3ardnoRHO2AfIl0qxXzfvte2Bg_nLwA"); // Substitua pela sua chave API
   }, []);
-
   // Função para gerar um texto adicional
   const generateAdditionalText = useCallback(async () => {
     const cachedText = localStorage.getItem("additionalText");
@@ -32,7 +31,7 @@ const Hero = () => {
       return;
     }
 
-    const prompt = `Gere uma frase única e atraente em primeira pessoa que destaque os serviços de desenvolvimento front-end de Felipe Urbanek. A frase deve enfatizar a criação de websites personalizados que capturam a essência da marca do cliente. Garanta que a frase seja cativante e direta, com foco na venda dos serviços. Somente uma frase, sem caracteres especiais. ela precisa ter pelo menos 200 caracteres`;
+    const prompt = `Gere uma frase única e atraente em primeira pessoa (usando EU) que destaque os serviços de desenvolvimento front-end de Felipe Urbanek. A frase deve enfatizar a criação de websites personalizados que capturam a essência da marca do cliente. Garanta que a frase seja cativante e direta, com foco na venda dos serviços. Somente uma frase, sem caracteres especiais. Ela precisa ter pelo menos 200 caracteres.`;
 
     try {
       const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
@@ -88,9 +87,7 @@ const Hero = () => {
                 <FontAwesomeIcon icon={faLocationDot} className="mx-2" />
               </h4>
             </div>
-            <span>
-              {additionalText} {/* Exibe o texto gerado */}
-            </span>
+            <span>{additionalText}</span>
             <a href="#" className="btn-white">
               Contate-me
             </a>
